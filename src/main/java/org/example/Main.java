@@ -16,5 +16,9 @@ public class Main {
         System.out.println("Test Case 5: " + processor.calculateWords("This is a sentence."));
         System.out.println("Test Case 6: " + processor.calculateWords("abc"));
 
+         // Test cases for calculateExpression
+        System.out.println("Test case 7: " + processor.calculateExpression("3 + 5 + 9"));
+        System.out.println("Test case 8: " + processor.calculateExpression("10 / 9 + 1"));
+
     }
 }
